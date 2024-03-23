@@ -26,6 +26,10 @@ public class App
 
         int number = 1;
         for (String link : links) {
+//            уберёт из ссылки всё в начале до последнего слэша, включая этот слэш,
+//            и параметры в конце, начинающиеся со знака вопроса. Например, из ссылки:
+//            https://248006.selcdn.ru/MainSite/skillbox.svg?uid=472394
+//            останется только skillbox.svg
             String extension = link
                     .replaceAll("^.+\\.", "")
                     .replace("?.+$", "");
