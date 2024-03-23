@@ -1,0 +1,14 @@
+{
+  "name": "Василий",
+  "age": 45,
+  "married": true,
+  "hobbies": ["java", "сноуборд"],
+  "children": [],
+  "car": null,
+  "job":
+  {
+    "since": "2022-02-20",
+    "city": "Moscow",
+    "salary": 280000.00
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Василий",
+  "age": 45,
+  "hobbies": [
+    "java",
+    "сноуборд"
+  ],
+  "children": [
+    "Olga",
+    "Petr"
+  ],
+  "car": {
+    "licensePlate": "A123BB765",
+    "model": "жигули",
+    "color": "кук"
+  },
+  "job": {
+    "since": [
+      2022,
+      2,
+      20
+    ],
+    "city": "Moscow",
+    "salary": 280000.00
+  },
+  "married": true
+}
